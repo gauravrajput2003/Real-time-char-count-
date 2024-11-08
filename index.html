@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>char counter app</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-mode">
+    <button  class="toggle" onclick="toggleDarkMode()">☾</button>
+    <div class="container">
+        <h2>Real Time charcter Counter </h2>
+        <p>
+            check your english text for grammar,spelling, and punctuation errors,
+            By Gaurav Singh.
+        </p>
+        <textarea id="textarea" class="textarea" maxlength="250" placeholder="please Write Here"></textarea> 
+        <button onclick="copytext()">Copy text</button>
+        <div class="counter-cont">
+            <p>Total character :<span id="total-count">0</span></p>
+            <p>Remaning :<span id="rem-count">250</span></p>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
